@@ -1,14 +1,15 @@
 <template>
   <div class="home-container">
     <div class="home-container1">
-      <span class="home-text">MUNCH</span>
+      <span class="home-text">MUNCH Website</span>
       <img
         alt="image"
         src="/image-removebg-preview-300h.png"
         class="home-image"
       />
       <div class="home-container2">
-        <router-link to="/" class="home-navlink">Home</router-link>
+        <router-link to="/" class="home-navlink">People</router-link>
+        <router-link to="/" class="home-navlink1">Home</router-link>
       </div>
       <div class="home-container3">
         <div class="home-container4">
@@ -49,7 +50,7 @@ export default {
   width: 100%;
   height: var(--dl-size-size-xxlarge);
   display: flex;
-  opacity: 0.75;
+  opacity: 1;
   position: relative;
   align-items: center;
   background-size: cover;
@@ -57,18 +58,19 @@ export default {
   background-image: url("/flag-banner_edited-1-1500w.jpg");
 }
 .home-text {
-  top: var(--dl-space-space-unit);
-  left: var(--dl-space-space-fourunits);
-  color: var(--dl-color-gray-white);
+  top: var(--dl-space-space-oneandhalfunits);
+  left: var(--dl-space-space-sixunits);
+  color: var(--dl-color-gray-black);
   position: absolute;
   font-size: 32px;
   text-align: left;
-  font-family: "Oxygen";
+  font-family: "Source Sans 3";
 }
 .home-image {
   top: var(--dl-space-space-unit);
   left: var(--dl-space-space-unit);
-  width: var(--dl-size-size-small);
+  width: 64px;
+  opacity: 1;
   position: absolute;
   object-fit: cover;
 }
@@ -83,13 +85,23 @@ export default {
   align-items: flex-start;
 }
 .home-navlink {
-  top: var(--dl-space-space-unit);
-  left: var(--dl-space-space-sixunits);
-  color: var(--dl-color-gray-white);
+  top: var(--dl-space-space-oneandhalfunits);
+  left: 640px;
+  color: var(--dl-color-gray-black);
   margin: auto;
   position: absolute;
   font-size: 24px;
-  font-family: "Oxygen";
+  font-family: "Source Sans 3";
+  text-decoration: none;
+}
+.home-navlink1 {
+  top: var(--dl-space-space-oneandhalfunits);
+  left: 512px;
+  color: var(--dl-color-gray-black);
+  margin: auto;
+  position: absolute;
+  font-size: 24px;
+  font-family: "Source Sans 3";
   text-decoration: none;
 }
 .home-container3 {
