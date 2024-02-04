@@ -57,7 +57,7 @@ export default {
 
 
 .navigation-links-root-class-name19 {
-  margin-top: var(--dl-space-space-unit);
+  margin-top: 24px;
 }
 @media(max-width: 767px) {
   .navigation-links-nav {

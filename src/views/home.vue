@@ -11,7 +11,7 @@
             <span>We will send out formal invitations in mid-March. </span>
             <span>
               Please
-              <span v-html="rawum4c"></span>
+              <span v-html="rawigqh"></span>
             </span>
             <a
               href="mailto:munch@chschool.co.uk?subject=MUNCH 24 New School"
@@ -96,7 +96,7 @@ export default {
   },
   data() {
     return {
-      rawum4c: ' ',
+      rawigqh: ' ',
     }
   },
   metaInfo: {

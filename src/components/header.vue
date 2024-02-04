@@ -48,6 +48,7 @@ export default {
 <style scoped>
 .header-header {
   width: auto;
+  height: 15%;
   display: flex;
   position: relative;
   max-width: auto;
